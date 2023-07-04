@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;500&family=Roboto:wght@100;400;700&display=swap');
+
+* {
+	box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: 2b2929 !important;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.body-login{
+	 background-color: 2b2929 !important;
+}
+
+.titulo {
+	margin:2rem ;
+	letter-spacing: .3rem;
+	font-size: clamp(1.8rem, 3vw, 2.5rem); ;
+}
+.cont-form{
+	padding: 2rem;
+	font-size: 1.2rem;
+	font-weight: 600;
+	
+}
+
+
+.cont_login {
+	color: white;
+    width: 300px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #545454; /* Cambio de fondo del cuadrado a gris */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.form-group button {
+    width: 100%;
+    padding: 8px;
+    background-color: black; /* Cambio de color del bot n a negro */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-dark {
+	font-size: 1.5rem !important;
+	font-weight: 400 !important;
+	background-color: #afa8ba36 !important ;
+	transition: background-color 2s ease-in-out !important;
+
+	}
+
+btn-dark:hover {
+ 
+ background-color: #a5a1aabd !important;
+}
